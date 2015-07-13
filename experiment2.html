@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Tony's experiment</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="experiment2.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>How to make a timer</h1>
+      </div>
+    </div>
+    <div class="container text-center">
+      <p id="counter"></p>
+      <button id="start-button" type="button" class="btn btn-success">Start</button>
+      <button id="stop-button" type="button" class="btn btn-danger">Stop</button>
+      <button id="reset-button" type="button" class="btn btn-primary">Reset</button>
+    </div>
+
+    <div class="container" id="table-container">
+      <table class="table" >
+        <thead>
+          <tr>
+            <th>Start Time </th>
+            <th>End time </th>
+            <th>Total time</th>
+          </tr>
+        </thead>
+        <tbody id="record-table">
+
+        </tbody>
+      </table>
+    </div>
+
+    <p id="test-p"></p>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="experiment2.js"> </script>
+    
+  </body>
+</html>
